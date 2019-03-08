@@ -2,6 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <style media="screen">
+      .wrapper{display:flex;flex-flow:row wrap;font-weight:bold;text-align:center}.wrapper>*{padding:10px;flex:1 100%}.header{background:tomato}.footer{background:lightgreen}.main{text-align:left;background:deepskyblue}.aside-1{background:gold}.aside-2{background:hotpink}@media all and (min-width:600px){.aside{flex:1 0 0}}@media all and (min-width:800px){.main{flex:3 0px}.aside-1{order:1}.main{order:2}.aside-2{order:3}.footer{order:4}}body{background-color:#ffffff;font-family:helvetica;color:black;font-size:1em;font-size-width:100%}li{font-family:helvetica;color:blue;font-size:1em}
+    </style>
     <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon/fav.png" type="image/png">
     <title>Hudders Explorer</title>
     <link rel="stylesheet" href={{ "/assets/css/style.min.css" | relative_url }}>
